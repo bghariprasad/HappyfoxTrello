@@ -1,0 +1,32 @@
+@import 'variables';
+
+body {
+  background: $wishper-gray-color;
+}
+
+.editableInput{
+  border: 2px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  resize: none;
+  &:focus {
+    background: $white-color;
+  }
+}
+
+.primary-btn{
+  background: $blue-color;
+  border-color: $blue-color;
+  color: $white-color;
+  &:hover{
+    color: $white-color;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.w-90 {
+  width: 90%;
+}

@@ -1,0 +1,13 @@
+@import 'variables';
+
+.navContainer{
+  background: $primary-color;
+  color: $white-color;
+  height: 50px;
+  .logo {
+    img {
+      object-fit: contain;
+      height: 70px;
+    }
+  }
+}

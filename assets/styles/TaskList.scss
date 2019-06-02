@@ -1,0 +1,77 @@
+@import 'variables';
+
+.ListWrapperContainer{
+  overflow-x: auto;
+  padding-bottom: 20px;
+  min-height: calc(95vh - 121px);
+  .ListContainer {
+    width: 280px;
+    min-height: 75px;
+    border-radius: 3px;
+    background: $list-color;
+    .delete {
+      opacity: 0;
+    }
+    &:hover {
+      .delete {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.addAnotherCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 3px 3px;
+  color: #6b778c;
+  cursor: pointer;
+  &:hover{
+    background: rgba(9,30,66,.13);
+  }
+  span {
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+.ticketContainer {
+  min-height: 60px;
+  box-shadow: 0 1px 0 rgba(9,30,66,.25);
+  position: relative;
+  .comments {
+    font-size: 12px;
+    position: relative;
+    bottom: 0px;
+  }
+  .title {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .border-bottom {
+    border-bottom: 1px solid grey; 
+  }
+  .trash {
+    opacity: 0;
+  }
+  &:hover {
+    .trash {
+      opacity: 1;
+    }
+  }
+}
+
+.ticketModalContainer{
+  .modal-content{
+    background: $wishper-gray-color;
+    border-radius: 2px; 
+  }
+  .form-control{
+    border-radius: 2px;
+  }
+}
