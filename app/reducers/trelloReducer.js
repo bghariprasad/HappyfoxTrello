@@ -2,101 +2,47 @@ import trelloActions from '../constants/trelloAction';
 
 const initialState = {
   board: {
-    title: 'Board-Title',
+    title: 'Happy Fox',
     lists: [
       {
         id: String(Math.random()),
-        title: 'list-1',
+        title: 'Agile Development template',
         tickets: [
           {
             id: String(Math.random()),
-            title: 'list-1-cardTitle-1',
-            description: 'list-1-description-1',
-            comments: ['comments-1', 'comments-2']
+            title: 'Give Notice',
+            description: 'Move fast without losing sight by adopting an agile workflow that gives your team perspective during any project management situation',
+            comments: ['Agile', 'Development']
           },
           {
             id: String(Math.random()),
-            title: 'list-1-cardTitle-2',
-            description: 'list-1-description-2',
-            comments: ['comments-1', 'comments-2']
+            title: 'Keep All codes',
+            description: 'Keep all code, spec, and plans easily accessile in one location for more organized producr development',
+            comments: ['All code', 'develpoment']
           },
           {
             id: String(Math.random()),
-            title: 'list-1-cardTitle-3',
-            description: 'list-1-description-3',
-            comments: ['comments-1', 'comments-2']
-          },
-          {
-            id: String(Math.random()),
-            title: 'list-1-cardTitle-4',
-            description: 'list-1-description-4',
-            comments: ['comments-1', 'comments-2']
-          },
-          {
-            id: String(Math.random()),
-            title: 'list-1-cardTitle-5',
-            description: 'list-1-description-5',
-            comments: ['comments-1', 'comments-2']
+            title: 'Collaboration',
+            description: 'Collaborrate seamlessly with engineers, product and scrum masters.',
+            comments: ['Collaboration', 'scrum masters']
           }
         ]
       },
       {
         id: String(Math.random()),
-        title: 'list-2',
+        title: 'Sprint Backlog',
         tickets: [
           {
             id: String(Math.random()),
-            title: 'list-2-cardTitle-1',
-            description: 'list-2-description-1',
-            comments: ['comments-1', 'comments-2']
+            title: 'New Team/ board tab',
+            description: 'Clicking the collection beneath a aboard should filter by collection, not open collections pop-over',
+            comments: ['Bugs', 'Error to be fixed soon']
           },
           {
             id: String(Math.random()),
-            title: 'list-2-cardTitle-2',
-            description: 'list-2-description-2',
-            comments: ['comments-1', 'comments-2']
-          },
-          {
-            id: String(Math.random()),
-            title: 'list-2-cardTitle-3',
-            description: 'list-2-description-3',
-            comments: ['comments-1', 'comments-2']
-          },
-          {
-            id: String(Math.random()),
-            title: 'list-2-cardTitle-4',
-            description: 'list-2-description-4',
-            comments: ['comments-1', 'comments-2', 'comments-3']
-          }
-        ]
-      },
-      {
-        id: String(Math.random()),
-        title: 'list-3',
-        tickets: [
-          {
-            id: String(Math.random()),
-            title: 'list-3-cardTitle-1',
-            description: 'list-3-description-1',
-            comments: ['comments-1', 'comments-2']
-          },
-          {
-            id: String(Math.random()),
-            title: 'list-3-cardTitle-2',
-            description: 'list-3-description-2',
-            comments: ['comments-1', 'comments-2']
-          },
-          {
-            id: String(Math.random()),
-            title: 'list-3-cardTitle-3',
-            description: 'list-3-description-3',
-            comments: ['comments-1', 'comments-2']
-          },
-          {
-            id: String(Math.random()),
-            title: 'list-3-cardTitle-4',
-            description: 'list-3-description-4',
-            comments: ['comments-1', 'comments-2', 'comments-3']
+            title: 'Team board page',
+            description: 'BC3 team boards page: Show other provate boards',
+            comments: ['team Board', 'Private']
           }
         ]
       }
